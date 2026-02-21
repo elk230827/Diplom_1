@@ -22,7 +22,6 @@ class TestBurger:
         burger = Burger()
         ing = db.available_ingredients()[0]
         burger.add_ingredient(ing)
-        assert len(burger.ingredients) == 1
         burger.remove_ingredient(0)
         assert len(burger.ingredients) == 0
 

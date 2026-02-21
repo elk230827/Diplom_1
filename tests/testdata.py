@@ -1,7 +1,7 @@
 
 RECEIPT = """(==== black bun ====)
 = sauce hot sauce =
-= sauce sour cream =
+= sauce hot sauce =
 (==== black bun ====)
 
-Price: 500"""
+Price: 220"""

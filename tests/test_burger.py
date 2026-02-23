@@ -5,7 +5,6 @@ import pytest
 from praktikum.burger import Burger
 from praktikum.database import Database
 from praktikum.ingredient_types import INGREDIENT_TYPE_SAUCE
-from tests.helper import get_price
 from tests.testdata import RECEIPT
 
 
@@ -51,7 +50,7 @@ class TestBurger:
         burger.add_ingredient(ing)
         burger.add_ingredient(ing)
         
-        assert burger.get_price() == get_price(burger)        
+        assert burger.get_price() == 220        
 
 
     def test_get_receipt(self):
